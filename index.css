@@ -1,0 +1,74 @@
+h1 {
+  color: DeepPink;
+}
+
+body {
+  font-family: courier;
+  background-image: url("spiritedaway.jpg");
+  background-size: cover;
+  padding:30px;
+}
+
+ .nav {
+  width:100%;
+  float: center;
+  flex-direction: row;
+  display: inline-block;
+  text-align: center;
+}
+
+.nav ul li{
+  display: inline-block;
+  height:120px;
+  width:120px;
+	background: white;
+	color: blue;
+  float: center;
+  opacity: .8;
+  border-radius: 50%;
+  color: DarkOliveGreen;
+  font-size: 20px;
+}
+
+.nav ul li:hover {
+  opacity:1;
+}
+
+.maincontainer {
+
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(255,255,255,1);
+
+  justify-content: space-evenly;
+  align-content: space-between;
+}
+
+.imgcont {
+flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+  float:left;
+}
+
+img {
+ height: 300px;
+ float: center;
+ padding: 20px;
+}
+
+.textcont {
+  flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+  float: right;
+  padding: 20px;
+}
+
+#yourmum {
+  font-stretch: extra-expanded;
+  color: Pink ;
+}
+
+#your2ndmum {
+  font-stretch: extra-condensed;
+  color: DarkOliveGreen;
+}
